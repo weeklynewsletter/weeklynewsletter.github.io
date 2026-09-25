@@ -1,6 +1,6 @@
 div.div {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0px;
+    padding: left;
     background-color: white;
 }
