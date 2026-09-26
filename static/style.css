@@ -17,8 +17,8 @@ p.stay {
 }
 
 div.footer {
-    background-color: lightblue;
-    color: White;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px;
     margin-top: 415px;
@@ -28,7 +28,7 @@ div.footer {
 }
 
 p.bottom {
-    color: white;
+    color: black;
     font-size: 15px;
     margin-top: 285px;
 }
