@@ -5,7 +5,7 @@ from firebase_admin import credentials, db
 app = Flask(__name__)
 
 # Initialize Firebase
-cred = credentials.Certificate("firebase-key.json")
+cred = credentials.Certificate("firebase.json")
 
 firebase_admin.initialize_app(cred, {
     "databaseURL": "https://newsletter-a2313-default-rtdb.firebaseio.com"
