@@ -1,16 +1,24 @@
 div.div {
-    margin-left: 20px;
-    max-width: 600px;
-    margin-left: 0px;
+    margin-left: 50px;
+    max-width: 700px;
     background-color: black;
 }
+
 body {
     background-color: black;
-
+    width: 1000px;
 }
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 h1 {
     color: white;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 p.stay {
@@ -19,18 +27,18 @@ p.stay {
 }
 
 div.footer {
-    background-color: white;
-    color: black;
+    background-color: rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
     text-align: center;
     padding: 10px;
-    margin-top: 415px;
+    margin-top: 80px;
     width: 1500px;
     height: 300px;
     font-size: 12px;
 }
 
 p.bottom {
-    color: black;
+    color: white;
     font-size: 15px;
     margin-top: 285px;
 }
