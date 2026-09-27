@@ -32,3 +32,21 @@ p.bottom {
     font-size: 15px;
     margin-top: 285px;
 }
+
+div.imagediv {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+div.image2div {
+    margin-top: 200px;
+    margin-right: 100px
+}
+
+img.image {
+    size: 20px;
+}
+
+img.image2 {
+    size: 10px;
+}
