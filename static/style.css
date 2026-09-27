@@ -1,5 +1,5 @@
 div.div {
-    margin-left: 0px;
+    margin-left: 20px;
     max-width: 600px;
     margin-left: 0px;
     background-color: black;
@@ -10,10 +10,12 @@ body {
 }
 h1 {
     color: white;
+    font-size: 45px;
 }
 
 p.stay {
     color: white;
+    font-size: 20px;
 }
 
 div.footer {
@@ -33,20 +35,16 @@ p.bottom {
     margin-top: 285px;
 }
 
-div.imagediv {
-    margin-top: 30px;
-    margin-right: 10px;
-}
-
-div.image2div {
-    margin-top: 200px;
-    margin-right: 100px
-}
-
 img.image {
-    size: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: -110px;
+    margin-left: 860px;
 }
 
 img.image2 {
-    size: 10px;
+    width: 200px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 660px;
 }
