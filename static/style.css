@@ -1,46 +1,29 @@
-div.div {
-    margin-left: 50px;
-    max-width: 700px;
-    background-color: black;
-}
-
-body {
-    background-color: black;
-    width: 1000px;
-}
-
 html, body {
     width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+div.div {
+    margin-left: 50px;
+    margin-top: 50px;
+    max-width: 700px;
+    background-color: black;
 }
 
 h1 {
     color: white;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 p.stay {
     color: white;
     font-size: 20px;
-}
-
-div.footer {
-    background-color: rgb(50, 50, 50);
-    color: rgb(50, 50, 50);
-    text-align: center;
-    padding: 10px;
-    margin-top: 80px;
-    width: 1500px;
-    height: 300px;
-    font-size: 12px;
-}
-
-p.bottom {
-    color: white;
-    font-size: 15px;
-    margin-top: 285px;
+    margin-bottom: 20px;
 }
 
 img.image {
@@ -48,6 +31,7 @@ img.image {
     height: 400px;
     margin-top: -110px;
     margin-left: 860px;
+    display: block;
 }
 
 img.image2 {
@@ -55,4 +39,35 @@ img.image2 {
     height: 300px;
     margin-top: -300px;
     margin-left: 660px;
+    display: block;
+}
+
+div.footer {
+    background-color: rgb(50, 50, 50);
+    padding: 30px 50px;
+    margin-top: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;            
+}
+
+.aboutlink {
+    display: inline-block;
+    color: rgb(113, 206, 237);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.aboutlink:hover {
+    text-decoration: underline;
+}
+
+p.bottom {
+    color: white;
+    font-size: 15px;
+    margin: 0;
 }
